@@ -1,0 +1,21 @@
+{
+  "packages": ["packages/*"],
+  "version": "independent",
+  "npmClient": "npm",
+  "hoist": true,
+  "private": true,
+  "command": {},
+  "ignoreChanges": [
+    "**/__fixtures__/**",
+    "**/__tests__/**",
+    "**/*.md",
+    "**/*.mdx",
+    "**/dist/**",
+    "**/node_modules/**",
+    "**/src/**",
+    "**/package-lock.json",
+    "**/story.tsx",
+    "unzip_me_v2.zip",
+    "unzip_me.zip"
+  ]
+}

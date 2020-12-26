@@ -1,0 +1,15 @@
+# Dirs
+.cache
+dist
+coverage
+node_modules
+storybook-static
+
+# Files
+.DS_Store
+*.swo
+*.swp
+
+# IDE
+.idea
+
